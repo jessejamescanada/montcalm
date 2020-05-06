@@ -1,0 +1,213 @@
+@media(max-width: 900px){
+  .showcase-content h2{
+    font-size: 36px;
+  }
+  .services-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .hours{
+    text-align: center;
+  }
+  .ccField-prepend{
+    width: auto;
+  }
+  .ccField-prepend input, .ccField-prepend textarea{
+    width: 100%;
+  }
+}
+
+@media(max-width: 768px){
+  
+  .nav-content{
+    width: 100%;
+  }
+ /* #showcase{
+   width: 100%;
+ } */
+ .showcase-container img{
+  width: 100%;
+  height: auto;
+}
+.showcase-content{
+  
+}
+.showcase-content h2{
+  font-size: 26px;
+}
+.services-container{
+  width: auto;
+  padding: 30px 50px;
+}
+.services-content{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.contact-content{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.ccField-prepend{
+  width: auto;
+}
+.ccField-prepend input, .ccField-prepend textarea{
+  width: 100%;
+}
+.hours{
+  padding: 10px;
+  text-align: center;
+}
+.ccForm .btn{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+#rentals{
+  height: auto;
+  padding: 30px 50px;
+}
+
+#rentals h2{
+  margin-bottom: 30px;
+}
+#rentals p{
+  text-align: center;
+  
+}
+}
+@media(max-width: 767px){
+  .nav-content{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .nav-content ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sticky{
+    position: relative;
+  }
+  .nav-content .desktop-nav{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+ .mobile-nav{
+    display: none;
+  }
+}
+
+@media(max-width:500px){
+  body{
+    width: auto;
+  }
+  /* nav{
+    width: 100%;
+  } */
+
+
+  .services-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .services-container p{
+    text-align: center;
+    font-size: 12px;
+  }
+.services-content{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.package-content{
+  width: auto;
+  margin: 10px 0px;
+  border-radius: 2px;
+}
+#showcase{
+  width: auto;
+}
+
+#rentals{
+  height: auto;
+  padding: 10px;
+}
+
+#rentals p{
+  text-align: center;
+}
+#rentals h2{
+  margin-bottom: 30px;
+}
+
+#partners{
+  height: auto;
+  padding: 10px;
+}
+
+.partners-content img{
+  margin: 0;
+}
+
+.showcase-content h2{
+  font-size:16px;
+}
+.showcase-content h3{
+  font-size: 12px;
+}
+.showcase-container img{
+  width: 100%;
+  height: auto;
+}
+
+.contact-content{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 10px;
+}
+.partners-content{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact{
+  padding: 0px;
+}
+.ccField-prepend{
+  width: auto;
+}
+.ccField-prepend input, .ccField-prepend textarea{
+  width: 100%;
+}
+.hours{
+  padding: 10px;
+  text-align: center;
+}
+
+.ccForm{
+  box-shadow: none;
+}
+.ccForm .btn{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+}

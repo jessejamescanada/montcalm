@@ -49,12 +49,19 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   padding: 0px 30px;
   position: sticky;
   z-index: 2;
   background-color: #F9F6F6;
+}
+
+.nav-content .mobile-nav{
+  display: none;
+}
+.fa-bars{
+  display: none;
 }
 
 .sticky {
@@ -116,7 +123,7 @@ h2{
 
 .typewriter{
   overflow: hidden;
-  border-right: .15em solid #cc0000;
+  /* border-right: .15em solid #cc0000; */
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .05em;
@@ -128,10 +135,12 @@ h2{
   from {width: 0}
   to {width: 100%}
 }
-@keyframes blink-caret{
+/* @keyframes blink-caret{
   from, to {border-color: transparent}
   50% {border-color: #cc0000;}
-}
+  100%{border-color: none;}
+  
+} */
 
 .social-container{
   margin: 5px;
@@ -154,8 +163,9 @@ h2{
   opacity: .8;
 }
 /* services */
+
 .services-container{
-  padding: 50px 0px;
+  padding: 50px 50px;
   width: 100%;
   background-color: #F2EDE4;
 }
@@ -165,12 +175,17 @@ h2{
   margin-bottom: 50px;
   font-size: 48px;
 }
+.services-container p{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
 
 .services-content{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -202,7 +217,6 @@ h2{
 }
 .package-content h3{
   color: white;
-  font-family: 'Courgette', cursive;
   font-weight: 100;
   font-size: 32px;
 }
@@ -253,12 +267,26 @@ h2{
   text-align: center;
 }
 
+#partners img{
+  width: 200px;
+  height: auto;
+  margin: 0px 20px;
+}
+#partners .mapleLeaf{
+  width: 100px;
+  height: auto;
+}
+.partners-content a:last-child{
+  display: flex;
+  flex-direction: column;
+}
+
 /* contact */
 #contact{
   width: 100%;
   margin: auto;
   background-color: #F9F6F6;
-  padding: 30px 0px;
+  padding: 30px 50px;
 }
 #contact h2{
   text-align: center;
@@ -268,8 +296,8 @@ h2{
 }
 .contact-content{
   display: flex;
-  justify-content: space-between;
-  width: 1200px;
+  justify-content: space-around;
+  width: 100%;
   margin: auto;
 }
 .hours h3{
