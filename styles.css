@@ -114,7 +114,7 @@ h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #333;
 }
 
 .showcase-content h2{
@@ -279,6 +279,11 @@ h2{
 .partners-content a:last-child{
   display: flex;
   flex-direction: column;
+}
+
+.partners-content a{
+  text-decoration: none;
+  color: #222;
 }
 
 /* contact */
