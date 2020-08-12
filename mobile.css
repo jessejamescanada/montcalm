@@ -19,6 +19,13 @@
   .ccField-prepend input, .ccField-prepend textarea{
     width: 100%;
   }
+  .typewriter{
+    display: none;
+  }
+  .logo{
+    width: 200%;
+    height: 200%;
+  }
 }
 
 @media(max-width: 768px){
@@ -109,6 +116,9 @@
  .mobile-nav{
     display: none;
   }
+  .rentals-content{
+    margin-bottom: 40px;
+  }
 }
 
 @media(max-width:500px){
@@ -169,7 +179,7 @@
   font-size:16px;
 }
 .showcase-content h3{
-  font-size: 12px;
+  font-size: 16px;
 }
 .showcase-container img{
   width: 100%;
