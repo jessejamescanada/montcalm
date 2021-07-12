@@ -231,12 +231,16 @@ h2{
 
 .rentals-content{
   display: flex;
+  flex-direction: row;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
 .rentals-content ul{
   padding: 20px;
+}
+.rentals-content-homes{
+  text-align: center;
 }
 
 #rentals h2{
