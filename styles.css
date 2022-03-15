@@ -244,16 +244,20 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 50px 0px;
-  height: 55vh;
+  height: 65vh;
   background-color: #f9f6f6;
 }
 
 .rentals-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+.rentals-content-contain {
+  display: flex;
+  flex-direction: row;
 }
 .rentals-content ul {
   padding: 20px;
@@ -267,6 +271,18 @@ h2 {
   font-size: 48px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+.app-title {
+  font-size: 28px;
+}
+
+.tenant-app-link {
+  color: #cc0000;
+  text-decoration: none;
+}
+.asterik {
+  color: #cc0000;
 }
 
 /* partners */
@@ -453,4 +469,14 @@ footer {
 .info-final-desc {
   width: 50%;
   padding: 0px 10px;
+}
+
+/* pdf */
+.pdf-container {
+  height: 100vh;
+  width: auto;
+}
+iframe {
+  height: 100vh;
+  width: 100%;
 }

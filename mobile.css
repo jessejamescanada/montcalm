@@ -1,244 +1,245 @@
-@media(max-width: 900px){
-
-  .showcase-content h2{
+@media (max-width: 900px) {
+  .showcase-content h2 {
     font-size: 36px;
   }
-  .services-content{
+  .services-content {
     display: flex;
     flex-direction: column;
   }
-  .contact-content{
+  .contact-content {
     display: flex;
     flex-direction: column;
   }
-  .hours{
+  .hours {
     text-align: center;
   }
-  .ccField-prepend{
+  .ccField-prepend {
     width: auto;
   }
-  .ccField-prepend input, .ccField-prepend textarea{
+  .ccField-prepend input,
+  .ccField-prepend textarea {
     width: 100%;
   }
-  .typewriter{
+  .typewriter {
     display: none;
   }
-  .logo{
+  .logo {
     width: 200%;
     height: 200%;
   }
+  .rentals-content-contain {
+    flex-direction: column;
+  }
 }
 
-@media(max-width: 768px){
-  
-  .nav-content{
+@media (max-width: 768px) {
+  .nav-content {
     width: 100%;
   }
- /* #showcase{
+  /* #showcase{
    width: 100%;
  } */
- .showcase-container img{
-  width: 100%;
-  height: auto;
-}
-.showcase-content{
-  
-}
-.showcase-content h2{
-  font-size: 26px;
-}
-.services-container{
-  width: auto;
-  padding: 30px 50px;
-}
-.services-content{
-  display: flex;
-  flex-direction: column;
-  width: auto;
-}
-.contact-content{
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 50px;
-}
-.ccField-prepend{
-  width: auto;
-}
-.ccField-prepend input, .ccField-prepend textarea{
-  width: 100%;
-}
-.hours{
-  padding: 10px;
-  text-align: center;
-}
-.ccForm .btn{
-  display: flex;
-  margin: auto;
-  justify-content: center;
-}
-#rentals{
-  height: auto;
-  padding: 30px 50px;
-}
+  .showcase-container img {
+    width: 100%;
+    height: auto;
+  }
+  .showcase-content {
+  }
+  .showcase-content h2 {
+    font-size: 26px;
+  }
+  .services-container {
+    width: auto;
+    padding: 30px 50px;
+  }
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .contact-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .ccField-prepend {
+    width: auto;
+  }
+  .ccField-prepend input,
+  .ccField-prepend textarea {
+    width: 100%;
+  }
+  .hours {
+    padding: 10px;
+    text-align: center;
+  }
+  .ccForm .btn {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  #rentals {
+    height: auto;
+    padding: 30px 50px;
+  }
 
-#rentals h2{
-  margin-bottom: 30px;
+  #rentals h2 {
+    margin-bottom: 30px;
+  }
+  #rentals p {
+    text-align: center;
+  }
 }
-#rentals p{
-  text-align: center;
-  
-}
-}
-@media(max-width: 767px){
-  .nav-content{
+@media (max-width: 767px) {
+  .nav-content {
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
   }
-  .nav-content ul{
+  .nav-content ul {
     display: flex;
     flex-direction: column;
   }
-  
-  .sticky{
+
+  .sticky {
     position: relative;
   }
-  .nav-content .desktop-nav{
+  .nav-content .desktop-nav {
     display: none;
   }
-  .fa-bars{
+  .fa-bars {
     display: block;
     position: absolute;
     top: 10px;
     right: 10px;
   }
- .mobile-nav{
+  .mobile-nav {
     display: none;
   }
-  .rentals-content{
+  .rentals-content {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
   }
-  .rentals-content ul{
+  .rentals-content ul {
     width: 100%;
   }
 }
 
-@media(max-width:500px){
-  body{
+@media (max-width: 500px) {
+  body {
     width: auto;
   }
   /* nav{
     width: 100%;
   } */
 
-
-  .services-container{
+  .services-container {
     display: flex;
     flex-direction: column;
     padding: 10px;
   }
 
-  .services-container p{
+  .services-container p {
     text-align: center;
     font-size: 12px;
   }
-.services-content{
-  display: flex;
-  flex-direction: column;
-  width: auto;
-}
-.package-content{
-  width: auto;
-  margin: 10px 0px;
-  border-radius: 2px;
-}
-#showcase{
-  width: auto;
-}
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .package-content {
+    width: auto;
+    margin: 10px 0px;
+    border-radius: 2px;
+  }
+  #showcase {
+    width: auto;
+  }
 
-#rentals{
-  height: auto;
-  padding: 10px;
-}
+  #rentals {
+    height: auto;
+    padding: 10px;
+  }
 
-#rentals p{
-  text-align: center;
-}
-#rentals h2{
-  margin-bottom: 30px;
-}
+  #rentals p {
+    text-align: center;
+  }
+  #rentals h2 {
+    margin-bottom: 30px;
+  }
 
-#partners{
-  height: auto;
-  padding: 10px;
-}
+  #partners {
+    height: auto;
+    padding: 10px;
+  }
 
-.partners-content img{
-  margin: 0;
-}
+  .partners-content img {
+    margin: 0;
+  }
 
-.showcase-content h2{
-  font-size:16px;
-}
-.showcase-content h3{
-  font-size: 16px;
-}
-.showcase-container img{
-  width: 100%;
-  height: auto;
-}
+  .showcase-content h2 {
+    font-size: 16px;
+  }
+  .showcase-content h3 {
+    font-size: 16px;
+  }
+  .showcase-container img {
+    width: 100%;
+    height: auto;
+  }
 
-.contact-content{
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  padding: 10px;
-}
-.partners-content{
-  display: flex;
-  flex-direction: column;
-}
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px;
+  }
+  .partners-content {
+    display: flex;
+    flex-direction: column;
+  }
 
-#contact{
-  padding: 0px;
-}
-.ccField-prepend{
-  width: auto;
-}
-.ccField-prepend input, .ccField-prepend textarea{
-  width: 100%;
-}
-.hours{
-  padding: 10px;
-  text-align: center;
-}
+  #contact {
+    padding: 0px;
+  }
+  .ccField-prepend {
+    width: auto;
+  }
+  .ccField-prepend input,
+  .ccField-prepend textarea {
+    width: 100%;
+  }
+  .hours {
+    padding: 10px;
+    text-align: center;
+  }
 
-.ccForm{
-  box-shadow: none;
-}
-.ccForm .btn{
-  display: flex;
-  margin: auto;
-  justify-content: center;
-}
+  .ccForm {
+    box-shadow: none;
+  }
+  .ccForm .btn {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 
-.gallery-container{
-  position: relative;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  padding: 0;
-  margin: 30px 0px;
-}
-.slide{
-  width: auto;
-}
-.slide-home{
-  margin-bottom: 20px;
-}
+  .gallery-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 30px 0px;
+  }
+  .slide {
+    width: auto;
+  }
+  .slide-home {
+    margin-bottom: 20px;
+  }
 }
