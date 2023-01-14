@@ -244,7 +244,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 50px 0px;
-  height: 65vh;
+  /* height: 65vh; */
   background-color: #f9f6f6;
 }
 
@@ -424,7 +424,7 @@ footer {
   border-radius: 8px;
 }
 .slide-home img {
-  width: 200px;
+  width: 175px;
   margin: 0px 50px;
 }
 
